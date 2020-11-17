@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: Roboto;
+        }
+        body {
+            background-color: rgb(241, 241, 241);
+            margin: 0px;
+        }
+        .wrapper {
+            margin: auto;
+            background-color: rgb(246, 247, 247);
+            max-width: 600px;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+        }
+        .header {
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .header-icon {
+            height: 50px;
+            width: 140px;
+        }
+        .content-img {
+            width: 100%;
+            height: 150px;
+        }
+        .content-body {
+            padding: 24px 32px;
+        }
+        .text-date {
+            color: rgb(173, 182, 176);
+        }
+        .content-coin {
+            color: rgb(20, 201, 72);
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .content-button {
+            cursor: pointer;
+            padding: 12px 38px;
+            color: #fff;
+            background-color: rgb(20, 201, 72);
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            margin: 14px 0px;
+        }
+        .footer {
+            background-color: #fff;
+            margin-top: 8px;
+            padding: 24px 32px 5px;
+        }
+        .footer-link {
+            text-decoration: none;
+            padding-right: 3px;
+        }
+        .footer-contact {
+            height: 30px;            
+            margin: 32px 0px 24px;
+            display: flex; 
+            justify-content: space-between;           
+        }
+        .contact-social {               
+            display: flex;
+        }
+        .contact-mobile {
+            display: flex;            
+        }
+        .img-social {
+            margin-right: 8px;
+            width: 30px;
+        }
+        .img-mobile {
+            padding-left: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <!-- <img src="./img/logo.png" class="header-icon" />
+                <img src="./img//title.png" class="header-title" /> -->
+                <img src="../img/logo3.png" class="header-icon" />
+            </div>
+            <div class="content">
+                <img src="../img/emailBannerCoin.png" class="content-img" />
+                <div class="content-body">
+                    <p class="text-date">November 11, 2020 at 10:10</p>
+                    <h2>KAZZA Cảm ơn quý khách Nha Trang đã nạp COIN thành công</h3>
+                        <p>Tổng số Coin hiện tại là <span class="content-coin">500 Coin</span></p>
+                        <p>Thông tin giao dịch: Ngày 10 Tháng 11 Năm 2020 10:30</p>
+                        <button class="content-button">Bấm để xem chi tiết</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Mọi thắc mắc góp ý, quý khách vui lòng liên hệ với Kazza</p>
+            <a href="#" class="footer-link">https://kazza.com</a>
+            <span style="padding-right: 3px; color: rgb(173, 182, 176);">hoặc</span>
+            <span style="padding-right: 3px;">Hotline</span><span style="color: rgb(20, 201, 72);">090000000</span>
+            <div class="footer-contact">
+                <div class="contact-social">
+                    <img class="img-social" src="../img/logo.png" />
+                    <img class="img-social" src="../img/logo.png" />
+                    <img class="img-social" src="../img/logo.png" />
+                </div>
+                <div class="contact-mobile">
+                    <img class="img-mobile" src="../img/googleDownload.png" />
+                    <img class="img-mobile" src="../img/appleDownload.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

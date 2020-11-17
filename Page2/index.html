@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>   
+        * {
+            font-family: Roboto;
+        }     
+        body {
+            background-color: rgb(241, 241, 241);
+            margin: 0px;            
+        }
+        .wrapper {
+            margin: auto;
+            background-color: rgb(246, 247, 247);
+            max-width: 600px;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+        }
+        .header {
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 2px solid rgb(20, 201, 72);
+        }    
+        .header-icon {
+            height: 50px;
+            width: 140px;
+        }  
+        .content {
+            padding: 24px 32px;
+        }  
+        .content-button {
+            cursor: pointer;
+            padding: 12px 38px;
+            color: #fff;
+            background-color: rgb(20, 201, 72);
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            margin: 14px 0px;
+        }
+        .content-info {
+            display: flex;            
+            justify-content: space-between;
+        }
+        .info-left {
+            width: 48%;            
+            border: 1px solid rgb(241, 241, 241);
+            border-radius: 2px;
+        }        
+        .info-right {
+            width: 48%;            
+            border: 1px solid rgb(241, 241, 241);
+            border-radius: 2px;
+        }
+        .info-left-header {
+            padding: 12px 16px;
+            background-color: rgb(246, 247, 247);
+        }
+        .info-right-header {
+            padding: 12px 16px;
+            background-color: rgb(246, 247, 247);
+        }
+        .info-content {
+            padding: 16px 16px;
+        }
+        .table-order {
+            margin: 16px 0px;
+            border-radius: 2px;
+            border: 1px solid rgb(208, 244, 218);
+        }
+        .table-header {
+            background-color: rgb(208, 244, 218);
+            display: flex;                        
+            padding: 0px 16px;
+        }
+        .table-text-header {
+            font-weight: bold;
+        }
+        .table-content {
+            display: flex;            
+            padding: 0px 16px;
+            border-bottom: 1px solid rgb(208, 244, 218);
+        }
+        .table-footer {
+            display: flex;
+            flex-direction: row-reverse;
+            padding: 0px 16px;
+            /* float: right; */
+        }
+        .footer {
+            background-color: #fff;
+            margin-top: 8px;
+            padding: 24px 32px 5px;            
+        }
+        .footer-link {
+            text-decoration: none;
+            padding-right: 3px;
+        }
+        .footer-contact {
+            height: 30px;            
+            margin: 32px 0px 24px;
+            display: flex; 
+            justify-content: space-between;           
+        }
+        .contact-social {               
+            display: flex;
+        }
+        .contact-mobile {
+            display: flex;            
+        }
+        .img-social {
+            margin-right: 8px;
+            width: 30px;
+        }
+        .img-mobile {
+            padding-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">                
+                <img src="../img/logo3.png" class="header-icon" />
+            </div>
+            <div class="content">
+                <p style="color: rgb(173, 182, 176);">November 11, 2020 at 10:10</p>
+                <p style="font-size: 22px; line-height: 30px;">XÁC NHẬN ĐƠN HÀNG <span style="color: rgb(20, 201, 72);">#70809-09</span></p>
+                <p>KAZZA xin trân trọng thông báo đơn hàng đã được xác nhận</p>
+                <p>KAZZA sẽ thông báo đến quý khách ngay khi hàng chuẩn bị được giao</p>
+                <button class="content-button">Bấm để xem chi tiết</button>
+                <div class="content-info">
+                    <div class="info-left">
+                        <div class="info-left-header">
+                            <p style="margin: 0px; font-weight: bold;">Thông tin thanh toán</p>
+                        </div>
+                        <div class="info-content">
+                            <p style="margin-top: 0px; word-break: break-all;">Nha Trang</p>
+                            <p style="color: dodgerblue; word-break: break-all;">ngophamnhatrang1995@gmail.com</p>                            
+                            <p>T: 0356924848</p>
+                        </div>
+                    </div>
+                    <div class="info-right">
+                        <div class="info-right-header">
+                            <p style="margin: 0px; font-weight: bold;">Địa chỉ giao hàng</p>
+                        </div>
+                        <div class="info-content">
+                            <p style="margin-top: 0px; word-break: break-all;">Nha Trang</p>                            
+                            <p style="color: dodgerblue; word-break: break-all;">ngophamnhatrang1995@gmail.com</p>
+                            <p style="word-break: break-all;">124 Hoàng Quốc Việt, Cầu Giấy, Hà Nội, Việt Nam</p>                            
+                            <p>T: 0356924848</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-order">
+                    <div class="table-header">
+                        <p class="table-text-header" style="width: 40%">Sản phẩm</p>
+                        <p class="table-text-header" style="width: 20%;">Giá gốc</p>
+                        <p class="table-text-header" style="width: 20%;">Đơn giá</p>
+                        <p class="table-text-header" style="width: 20%; text-align: end;">Tạm tính</p>
+                    </div>
+                    <div class="table-content">
+                        <p style="width: 40%">Áo len cổ lọ</p>
+                        <p style="width: 20%;">90.000đ</p>
+                        <p style="width: 20%;">72.000đ</p>
+                        <p style="width: 20%; text-align: end;">72.000đ</p>
+                    </div>
+                    <div class="table-footer">                        
+                        <p style="font-weight: bold;">Tổng tiền: <span>72.000 đ</span></p>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div class="footer">
+            <p>Mọi thắc mắc góp ý, quý khách vui lòng liên hệ với Kazza</p>
+            <a href="#" class="footer-link">https://kazza.com</a>
+            <span style="padding-right: 3px; color: rgb(173, 182, 176);">hoặc</span>
+            <span style="padding-right: 3px;">Hotline</span><span style="color: rgb(20, 201, 72);">090000000</span>
+            <div class="footer-contact">
+                <div class="contact-social">
+                    <img class="img-social" src="../img/logo.png" />
+                    <img class="img-social" src="../img/logo.png" />
+                    <img class="img-social" src="../img/logo.png" />
+                </div>
+                <div class="contact-mobile">
+                    <img class="img-mobile" src="../img/googleDownload.png" />
+                    <img class="img-mobile" src="../img/appleDownload.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
