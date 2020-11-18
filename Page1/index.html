@@ -10,6 +10,9 @@
         * {
             font-family: Roboto;
         }
+        p {
+            margin: 0px;         
+        }
         body {
             background-color: rgb(241, 241, 241);
             margin: 0px;
@@ -24,13 +27,11 @@
             background-color: #fff;
         }
         .header {
-            height: 80px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            text-align: center;
+            padding: 16px 0px;
         }
         .header-icon {
-            height: 50px;
+            height: inherit;
             width: 140px;
         }
         .content-img {
@@ -38,7 +39,7 @@
             height: 150px;
         }
         .content-body {
-            padding: 24px 32px;
+            padding: 32px 32px;
         }
         .text-date {
             color: rgb(173, 182, 176);
@@ -49,14 +50,14 @@
             font-weight: bold;
         }
         .content-button {
-            width: 148px;            
+            width: 148px;                        
             display: block;
             text-decoration: none;
             cursor: pointer;
             padding: 12px 38px;
             color: #fff;
             background-color: rgb(20, 201, 72);
-            border-radius: 6px;
+            border-radius: 8px;
             border: none;
             outline: none;
             margin: 14px 0px;
@@ -87,6 +88,8 @@
             width: 30px;
         }
         .img-mobile {
+            width: 100px;
+            height: 30px;
             padding-left: 8px;
         }
     </style>
@@ -95,36 +98,34 @@
 <body>
     <div class="wrapper">
         <div class="container">
-            <div class="header">
-                <!-- <img src="./img/logo.png" class="header-icon" />
-                <img src="./img//title.png" class="header-title" /> -->
-                <img src="../img/logo3.png" class="header-icon" />
+            <div class="header">                
+                <img src="https://storage.googleapis.com/fiin-x/avatar/338cde35-0c75-4ce5-b1d3-9b177b88bf3d.png" class="header-icon" />
             </div>
             <div class="content">
-                <img src="../img/emailBannerCoin.png" class="content-img" />
+                <img src="https://storage.googleapis.com/fiin-x/avatar/6fda9651-8106-4009-a486-ffe6bc80092f.png" class="content-img" />
                 <div class="content-body">
                     <p class="text-date">November 11, 2020 at 10:10</p>
                     <h2>KAZZA Cảm ơn quý khách Nha Trang đã nạp COIN thành công</h3>
                         <p>Tổng số Coin hiện tại là <span class="content-coin">500 Coin</span></p>
-                        <p>Thông tin giao dịch: Ngày 10 Tháng 11 Năm 2020 10:30</p>
+                        <p style="padding-top: 12px; padding-bottom: 24px;">Thông tin giao dịch: Ngày 10 Tháng 11 Năm 2020 10:30</p>
                         <a href="#" class="content-button">Bấm để xem chi tiết</a>
                 </div>
             </div>
         </div>
         <div class="footer">
-            <p>Mọi thắc mắc góp ý, quý khách vui lòng liên hệ với Kazza</p>
+            <p style="margin-bottom: 12px;">Mọi thắc mắc góp ý, quý khách vui lòng liên hệ với Kazza</p>
             <a href="#" class="footer-link">https://kazza.com</a>
             <span style="padding-right: 3px; color: rgb(173, 182, 176);">hoặc</span>
             <span style="padding-right: 3px;">Hotline</span><span style="color: rgb(20, 201, 72);">090000000</span>
             <div class="footer-contact">
                 <div class="contact-social">
-                    <img class="img-social" src="../img/logo.png" />
-                    <img class="img-social" src="../img/logo.png" />
-                    <img class="img-social" src="../img/logo.png" />
+                        <img class="img-social" src="https://storage.googleapis.com/fiin-x/avatar/2334b744-73d2-4994-8978-b26facf9d2a9.png" />
+                        <img class="img-social" src="https://storage.googleapis.com/fiin-x/avatar/e5525669-6ffb-47d0-9acd-487a2c3eb4be.png" />
+                        <img class="img-social" src="https://storage.googleapis.com/fiin-x/avatar/6fcce505-8fcc-4fe5-a53b-4c413c55fa0a.png" />
                 </div>
                 <div class="contact-mobile">
-                    <img class="img-mobile" src="../img/googleDownload.png" />
-                    <img class="img-mobile" src="../img/appleDownload.png" />
+                    <img class="img-mobile" src="https://storage.googleapis.com/fiin-x/avatar/a6599a54-cfb8-4dbd-803e-e23b481d8c40.png" />
+                    <img class="img-mobile" src="https://storage.googleapis.com/fiin-x/avatar/703c92e0-bbe1-4eac-8235-9ab5d5d064bd.png" />
                 </div>
             </div>
         </div>
