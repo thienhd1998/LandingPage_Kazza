@@ -208,7 +208,7 @@ p {
 /* Reponsive */
 
 /* Mobile */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     /* Header */
     .header {
         padding: 0px;
